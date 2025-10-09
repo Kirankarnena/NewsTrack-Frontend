@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\saiki\Documents\springcourse\.metadata\.plugins\org.eclipse.jdt.core
+3265662760.index
+406403877.index
+1772613417.index
+2733145832.index
+4116501856.index
+587232347.index
+4288819165.index
+1865797976.index

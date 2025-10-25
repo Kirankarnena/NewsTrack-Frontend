@@ -53,7 +53,7 @@ export default function History({ token }) {
   const fetchHistory = async () => {
     setError('');
     try {
-      const res = await axios.get('http://localhost:8080/api/history', {
+      const res = await axios.get('https://newstrack-backend-2.onrender.com/api/history', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setHistory(res.data);

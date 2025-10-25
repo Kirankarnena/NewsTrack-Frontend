@@ -52,8 +52,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate, Link, useNavigate } from 'react-router-dom';
-import Login from './Login';
-import Register from './Register';
+import Login from './login';
+import Register from './register';
 import News from './News';
 import History from './History';
 

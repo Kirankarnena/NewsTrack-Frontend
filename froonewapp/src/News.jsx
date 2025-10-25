@@ -14,7 +14,7 @@ export default function News({ token }) {
   const fetchNews = async () => {
     setError('');
     try {
-      const res = await axios.get('http://localhost:8080/api/news', {
+      const res = await axios.get('https://newstrack-backend-2.onrender.com/api/news', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setArticles(res.data);
@@ -25,7 +25,7 @@ export default function News({ token }) {
 
   const addToHistory = async (article) => {
     try {
-      await axios.post('http://localhost:8080/api/history/add', article, {
+      await axios.post('https://newstrack-backend-2.onrender.com/api/history/add', article, {
         headers: { Authorization: `Bearer ${token}` }
       });
       alert('Added to history');
